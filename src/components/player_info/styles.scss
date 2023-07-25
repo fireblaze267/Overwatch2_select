@@ -62,9 +62,12 @@
   }
   @media (max-width: 950px) {
     &-main {
-      width: 100%;
-      justify-content: center;
       position: static;
+      width: 100%;
+      justify-content: space-between;
+    }
+    &-line {
+      display: none;
     }
   }
 }
