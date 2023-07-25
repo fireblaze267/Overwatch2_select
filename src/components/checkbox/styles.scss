@@ -1,0 +1,17 @@
+.check {
+  &-root {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border-radius: 2px;
+    height: 40px;
+    border: 1px solid white;
+    img {
+      margin-top: 5px;
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
