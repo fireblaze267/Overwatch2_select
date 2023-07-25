@@ -11,3 +11,16 @@
     height: 4rem;
   }
 }
+
+@media (max-width: 950px) {
+  .page-title {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 3px;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}

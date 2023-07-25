@@ -60,6 +60,13 @@
       animation: borderHoverAnimation ease-in-out 2s infinite;
     }
   }
+  @media (max-width: 950px) {
+    &-main {
+      width: 100%;
+      justify-content: center;
+      position: static;
+    }
+  }
 }
 
 @keyframes borderHoverAnimation {

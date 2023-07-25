@@ -145,4 +145,26 @@
       color: #bfbfbf;
     }
   }
+
+  @media (max-width: 950px) {
+    &-main {
+      margin: 3rem 0rem;
+    }
+    &-select {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &-line {
+      width: 2rem;
+      height: 5px;
+      margin: 6px 0px;
+    }
+    &-card {
+      width: 80%;
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
 }

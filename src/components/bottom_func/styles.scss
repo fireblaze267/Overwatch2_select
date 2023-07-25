@@ -39,4 +39,9 @@
       }
     }
   }
+  @media (max-width: 950px) {
+    &-main {
+      display: none;
+    }
+  }
 }
