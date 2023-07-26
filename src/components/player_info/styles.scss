@@ -6,6 +6,7 @@
     top: 1rem;
     padding: 0px;
   }
+
   &-banner {
     display: flex;
     align-items: center;
@@ -58,6 +59,24 @@
     background-color: #ec6a19;
     &:hover {
       animation: borderHoverAnimation ease-in-out 2s infinite;
+    }
+  }
+  &-git {
+    display: flex;
+    place-items: center;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    padding: 12px;
+    &:hover {
+      animation: borderHoverAnimation ease-in-out 2s infinite;
+    }
+    img {
+      background-color: white;
+      width: 25px;
+      height: 25px;
+      margin-right: 8px;
     }
   }
   @media (max-width: 950px) {

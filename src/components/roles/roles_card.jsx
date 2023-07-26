@@ -14,12 +14,12 @@ export default function Roles_card({ handle, text, icon, value, disable }) {
           </div>
         </div>
       ) : null}
-      <div className="roles-estimative">
-        <p>{` < ${number.current} min`}</p>
-      </div>
       <label>{text}</label>
       <img src={icon} />
       {disable ? null : <CheckboxComponent bool={value} />}
+      <div className="roles-estimative">
+        <p>{` < ${number.current} min`}</p>
+      </div>
     </div>
   );
 }
